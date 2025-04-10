@@ -7,8 +7,8 @@ function App() {
     <>
       <div>
        
-      <h1>BESPOKE WEB</h1>
-      
+      <h1 className="text-cyan-600">BESPOKE WEB</h1>
+      <h2>ENGINEERS</h2>
       </div>
      
     </>
