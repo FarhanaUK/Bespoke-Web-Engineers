@@ -13,20 +13,31 @@ import ProcessingTimeMap from './components/ProcessingTimeMap'
 import Services from './components/Services'
 import TermsAndConditions from './components/TermsAndConditions'
 import Testimonoals from './components/Testimonials'
+import {Routes, Route} from 'react-router-dom'
 
 function App() {
   
 
   return (
-    <>
-      <div>
-       
-      <h1 className="font-russo text-4xl">BESPOKE WEB</h1>
-      <h2 className="font-Charmonman text-2xl">ENGINEERS</h2>
-      </div>
-     
-    </>
-  )
+    <div className="bg-amber-100 min-h-screen flex">
+      <Routes>
+        <Route path="/" element={<Hero />} />
+        <Route path="TermsAndConditions" element={<TermsAndConditions />} />
+        <Route path="About" element={<About />} />
+        <Route path="CallToAcgtion" element={<CallToAcgtion />} />
+        <Route path="Contact" element={<Contact />} />
+        <Route path="FAQs" element={<FAQs />} />
+        <Route path="Portfolio" element={<Portfolio />} />
+        <Route path="Pricing" element={<Pricing />} />
+        <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
+        <Route path="ProcessingTimeMap" element={<ProcessingTimeMap />} />
+        <Route path="Services" element={<Services />} />
+        <Route path="Testimonoals" element={<Testimonoals />} />
+      </Routes>
+
+      <Footer />
+    </div>
+  );
 }
 
 export default App
