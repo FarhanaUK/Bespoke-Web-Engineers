@@ -21,6 +21,8 @@ function App() {
   return (
     <div className="bg-amber-100 min-h-screen flex flex-col">
       <div className='flex-grow'>
+
+        <NavMenu/>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
