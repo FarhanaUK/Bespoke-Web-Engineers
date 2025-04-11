@@ -19,7 +19,8 @@ function App() {
   
 
   return (
-    <div className="bg-amber-100 min-h-screen flex">
+    <div className="bg-amber-100 min-h-screen flex flex-col">
+      <div className='flex-grow'>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
@@ -34,7 +35,7 @@ function App() {
         <Route path="Services" element={<Services />} />
         <Route path="Testimonoals" element={<Testimonoals />} />
       </Routes>
-
+</div>
       <Footer />
     </div>
   );
