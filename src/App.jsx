@@ -1,5 +1,6 @@
 
 import About from './components/About'
+import BusinessName from './components/BusinessName'
 import CallToAcgtion from './components/CallToAction'
 import Contact from './components/Contact'
 import FAQs from './components/FAQs'
@@ -19,10 +20,11 @@ function App() {
   
 
   return (
-    <div className="bg-amber-100 min-h-screen flex flex-col">
+    <div className="bg-amber-50 min-h-screen flex flex-col">
       <div className='flex-grow'>
 
         <NavMenu/>
+        <BusinessName/>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
