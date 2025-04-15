@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Services from "./Services";
 // fix the image sizing
 function Hero() {
 
@@ -7,7 +8,8 @@ function Hero() {
 
   return (
     <div className="w-full px-12 mt-4">
-      <h1>"Pixel-Perfect, Hand-Crafted Websites – Built with Clean Code"</h1>
+      <h1>"Pixel-Perfect, Hand-Crafted Websites
+      Built with Clean Code"</h1>
 
       <div className="relative w-full h-[600px] mt-8">
         <img
@@ -44,7 +46,10 @@ function Hero() {
           <button className="border p-2 bg-sky-800">Get Started</button>
         </Link>
       </div>
+
+        <Services/>
     </div>
+  
   );
 }
 
