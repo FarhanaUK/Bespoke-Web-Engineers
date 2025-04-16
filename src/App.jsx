@@ -20,7 +20,7 @@ function App() {
   
 
   return (
-    <div className="bg-amber-50 min-h-screen flex flex-col">
+    <div className="bg-neutral-100 min-h-screen flex flex-col">
       <div className='flex-grow'>
 
         <NavMenu/>

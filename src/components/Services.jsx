@@ -13,7 +13,7 @@ function Services() {
     className="w-1/2"
     />
 <h2 className="font-bold ">Web Development</h2>
-<p>Custome build websites with raw code.</p>
+<p>Custom build websites with raw code.</p>
 </div>
 
 <div className=" bg-white px-2 py-2 text-center border rounded-lg aspect-square w-64 flex flex-col justify-center items-center">
