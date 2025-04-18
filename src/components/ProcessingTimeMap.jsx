@@ -34,12 +34,12 @@ function ProcessingTimeMap() {
 
 
   return (
-    <div>
-      <h1 className="font-bold text-4xl flex justify-center my-12 ">
+    <div className="bg-slate-50 rounded-xl py-16 mb-16">
+      <h1 className="font-bold text-4xl text-center mb-16 ">
         What to Expect
       </h1>
-      <div className="relative mx-auto w-fit p-8 bg-slate-800 rounded-xl">
-        <div className="absolute left-1/2 top-0 h-full w-1 -translate-x-1/2 bg-gray-300 "></div>
+      <div className="relative mx-auto w-fit p-8">
+        <div className="absolute left-1/2 top-0 h-full w-[3px] -translate-x-1/2 bg-gray-300 "></div>
 
         <div className="flex flex-col gap-16">
           {steps.map((step, index) => (
@@ -51,8 +51,8 @@ function ProcessingTimeMap() {
             >
               
               <div className="w-1/2 px-4">
-                <div className="rounded-lg bg-white p-4 shadow-md">
-                 <p className="font-bold mb-2">{step.title}</p>
+                <div className="rounded-lg bg-white p-6 shadow-md">
+                 <p className="font-bold text-lg text-gray-900 mb-2">{step.title}</p>
                  <p className="text-gray-600">{step.text}</p>
                 </div>
               </div>
