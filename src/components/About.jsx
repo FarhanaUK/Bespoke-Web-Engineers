@@ -2,7 +2,7 @@ function About() {
 
     return(
         <div>
-<h1 className="text-4xl font-bold relative flex justify-center p-12">About </h1>
+<h1 className="text-4xl font-bold relative flex justify-center my-12 space-x-4 p-2">About </h1>
 <img
 src="/Bespoke Web (1).PNG"
 alt="Bespoke Web Engineers Website logo"
@@ -12,7 +12,9 @@ className="absolute right-1/5 w-fit"/>
 
 We keep it simple: no confusing tech talk, no unnecessary features—just a smooth process and a site that does what it’s meant to do.
 
-Whether you’re a coach, consultant, or local service provider, we’ll build you a site that feels like you and works like it should.</p>
+Whether you’re a coach, builder, or local service provider, we’ll build you a site that feels like you and works like it should.</p>
+
+<button>Book Now</button>
         </div>
     )
 }
