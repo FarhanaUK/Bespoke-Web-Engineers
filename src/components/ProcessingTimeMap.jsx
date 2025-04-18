@@ -5,22 +5,40 @@
 function ProcessingTimeMap() {
 
   const steps = [
-  { text: "Step 1: Book a free Zoom consultation (15–30 mins)" }, // Discovery call
-  { text: "Step 2: Pay 50% deposit during the Zoom call to start the project" }, // Lock-in
-  { text: "Step 3: Website development phase (1–2 weeks)" }, // Build phase
-  { text: "Step 4: Final website delivery and walkthrough" }, // Hand-off
-  { text: "Step 5: Final 50% payment due on delivery" }, // Payment completion
-  { text: "Step 6: 7-day grace period for small tweaks and adjustments" } // Post-launch support
+    {
+      title: "1️⃣ Pre-Call Form",
+      text: "Fill out a short form before our Zoom meeting. This gives our developers the details needed to create a tailored demo in advance."
+    },
+    {
+      title: "2️⃣ Zoom Consultation",
+      text: "We review the demo and discuss your business goals. If you're happy to proceed, a 50% deposit secures your spot."
+    },
+    {
+      title: "3️⃣ Design & Development (1–2 Weeks)",
+      text: "Your custom website is built based on our discussion and feedback."
+    },
+    {
+      title: "4️⃣ Launch & Final Payment",
+      text: "Once the site is ready, we launch. Final 50% payment is due within 24 hours of launch."
+    },
+    {
+      title: "5️⃣ 7-Day Grace Period",
+      text: "Includes minor tweaks and adjustments after launch (if needed)."
+    },
+    {
+      title: "6️⃣ Monthly Maintenance (Optional)",
+      text: "Keep your site running smoothly with regular updates, fixes, and support."
+    }
   
   ];
 
 
   return (
     <div>
-      <h1 className="font-bold text-4xl flex justify-center my-12">
+      <h1 className="font-bold text-4xl flex justify-center my-12 ">
         What to Expect
       </h1>
-      <div className="relative mx-auto w-fit p-8 ">
+      <div className="relative mx-auto w-fit p-8 bg-slate-800 rounded-xl">
         <div className="absolute left-1/2 top-0 h-full w-1 -translate-x-1/2 bg-gray-300 "></div>
 
         <div className="flex flex-col gap-16">
@@ -31,9 +49,11 @@ function ProcessingTimeMap() {
                 index % 2 === 0 ? "justify-start" : "justify-end"
               }`}
             >
+              
               <div className="w-1/2 px-4">
                 <div className="rounded-lg bg-white p-4 shadow-md">
-                  {step.text}
+                 <p className="font-bold mb-2">{step.title}</p>
+                 <p className="text-gray-600">{step.text}</p>
                 </div>
               </div>
 
