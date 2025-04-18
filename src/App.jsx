@@ -18,7 +18,7 @@ import {Routes, Route} from 'react-router-dom'
 
 function App() {
   
-
+//add the thing for scrolling 
   return (
     <div className="bg-neutral-100 min-h-screen flex flex-col">
       <div className='flex-grow'>

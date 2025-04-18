@@ -9,7 +9,9 @@ function Footer() {
           <nav className="space-x-4">
             <Link to="/TermsAndConditions" className="hover:underline">Terms & Conditions</Link>
             <Link to="/PrivacyPolicy" className="hover:underline">Privacy Policy</Link>
+            <Link to="/FAQS" className="hover:underline">FAQ</Link>
             <Link to="/Contact" className="hover:underline">Contact</Link>
+
           </nav>
 
         </footer>

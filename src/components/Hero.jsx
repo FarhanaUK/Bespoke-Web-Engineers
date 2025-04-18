@@ -33,7 +33,7 @@ function Hero() {
         />
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w0full text-center my-5">
           <h2 className="font-bold text-2xl text-white">
-            Supporting small businesses, startups and individuals get started{" "}
+            Supporting small businesses, startups and individuals get started
           </h2>
         </div>
         <img
