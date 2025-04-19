@@ -1,7 +1,7 @@
 function Services() {
   return (
     <div>
-      <h1 className="text-center text-4xl font-bold">Our Services</h1>
+      <h1 className="text-center text-4xl font-semibold">Our Services</h1>
 
       <div className="flex justify-center my-12 space-x-4 p-2 flex-wrap gap-4">
         <div className="bg-white px-2 py-2 text-center border rounded-lg aspect-square w-64 flex flex-col justify-center items-center">
