@@ -66,7 +66,7 @@ const faqs = [
 
 function FAQs() {
    
-    const [openIndex, setOpenIdex] = useState(null)
+    const [openIndex, setOpenIdex] = useState(false)
 
     const toggleFAQ = (index) => {
       setOpenIdex(index === openIndex ? null : index)
@@ -80,14 +80,15 @@ function FAQs() {
 
 
     return (
-        <div>
-            <h1 className="font-semibold text-4xl">FAQs</h1>
-      <div>
+        <div className="max-w-2xl mx-auto p-4">
+            <h1 className="text-4xl font-semibold text-center mb-8">FAQs</h1>
+      <div className="space-y-2">
        {faqs.map((faq, index) => (
-        <div key={index}>
+        <div key={index}
+        className=" border rounded-lg hover:bg-gray-200 overflow-hidden">
             
-            <button onClick={()=> toggleFAQ(index)}>{faq.question}</button>
-            {openIndex === index && <p>{faq.answer}</p>}
+            <button className="w-full text-left p-4 font-medium" onClick={()=> toggleFAQ(index)}>{faq.question}</button>
+            {openIndex === index && <p className="border-t bg-gray-100 p-4">{faq.answer}</p>}
         </div>
        ))}
 
