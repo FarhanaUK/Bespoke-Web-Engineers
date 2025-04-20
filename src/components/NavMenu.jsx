@@ -7,7 +7,7 @@ function NavMenu() {
         <div className="flex justify-end space-x-12 mt-6 mr-32">
        <Link to="/About" className="hover:underline">About</Link>
        <Link to="/Services" className="hover:underline">Services</Link>
-       <Link to="/Portfolio" className="hover:underline">Portfolio</Link>
+       <Link to="/Pricing" className="hover:underline">Pricing</Link>
        <Link to="/Contact" className="hover:underline">Contact</Link>
         </div>
     )
