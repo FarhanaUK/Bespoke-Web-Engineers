@@ -1,3 +1,6 @@
+//clean up styling and spacing
+
+
 function TermsAndConditions() {
 
     
