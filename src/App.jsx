@@ -2,7 +2,7 @@
 import About from './components/About'
 import BusinessName from './components/BusinessName'
 import CallToAcgtion from './components/CallToAction'
-import Contact from './components/Contact'
+import BookNow from './components/BookNow'
 import FAQs from './components/FAQs'
 import Footer from './components/Footer'
 import Hero from './components/Hero'
@@ -30,7 +30,7 @@ function App() {
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
         <Route path="About" element={<About />} />
         <Route path="CallToAcgtion" element={<CallToAcgtion />} />
-        <Route path="Contact" element={<Contact />} />
+        <Route path="BookNow" element={<BookNow />} />
         <Route path="FAQs" element={<FAQs />} />
         <Route path="Portfolio" element={<Portfolio />} />
         <Route path="Pricing" element={<Pricing />} />

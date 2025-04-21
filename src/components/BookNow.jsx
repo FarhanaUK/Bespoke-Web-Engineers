@@ -1,4 +1,4 @@
-function Contact() {
+function BookNow() {
 
     return(
         <div>
@@ -7,4 +7,4 @@ function Contact() {
     )
 }
 
-export default Contact
+export default BookNow
