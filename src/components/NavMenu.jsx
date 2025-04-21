@@ -8,6 +8,7 @@ function NavMenu() {
        <Link to="/About" className="hover:underline">ABOUT</Link>
        <Link to="/Services" className="hover:underline">SERVICES</Link>
        <Link to="/Pricing" className="hover:underline">PRICING</Link>
+       <Link to="/Contact" className="hover:underline">CONTACT US</Link>
        <Link to="/BookNow" className="border rounded-lg bg-black hover:bg-slate-800 text-white px-4 py-2 inline-flex items-center">BOOK NOW</Link>
         </div>
     )
