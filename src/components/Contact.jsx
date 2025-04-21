@@ -2,18 +2,19 @@ import { useState } from "react"
 
 
 
-
 function Contact () {
-const [value, setValue] = useState("")
+const [value, setValue] = useState({name:"", email:"", message:""})
 
-const onChange = () => {
-setValue = {value, }
-
+function handleChange(e) {
+const {name, value: inputValue} = e.target
+setValue(prev => ({
+    ...prev, [name]: inputValue
+}))
 }
 
 
 
-const onSbumit = (evt) =>{
+const onSubmit = (evt) =>{
     evt.preventDefault()
     }
 
@@ -25,17 +26,17 @@ const onSbumit = (evt) =>{
             <p className="text-gray-700">Got a question? Drop a message below!</p>
             <div className="mb-4">
 
-            <form onSubmit={onSbumit} className="flex flex-col">
+            <form onSubmit={onSubmit} className="flex flex-col">
                 <label className="font-semibold">Name
-                <input type="text" name="name" value="" onChange="" className="border mb-6 flex flex-col w-full"/>
+                <input type="text" name="name" value={value.name} onChange={handleChange} className="border mb-6 flex flex-col w-full"/>
                 </label>
 
                 <label className="font-semibold">Email
-                <input type="email" name="email" value="" onChange=""  className="border mb-6 flex flex-col w-full"/>
+                <input type="email" name="email" value={value.email} onChange={handleChange}  className="border mb-6 flex flex-col w-full"/>
                 </label>
 
                 <label className="font-semibold">Message
-                <input type="text" name="message" value="" onChange="" className="border mb-6 flex flex-col w-full "/>
+                <input type="text" name="message" value={value.message} onChange={handleChange} className="border mb-6 flex flex-col w-full "/>
                 </label>
  <div>
             <button className="border p-2 rounded-lg bg-black text-white">Send Message</button>
