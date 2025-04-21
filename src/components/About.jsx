@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function About() {
   return (
     <div className="flex flex-col justify-start items-center pt-2 px-8">
-      <h1 className="text-4xl font-semibold text-center mb-8">ABOUT US</h1>
+      <h1 className="text-4xl font-semibold text-center mb-8">About Us</h1>
 
       <p className="md:w-1/2 text-lg leading-relaxed text-gray-700 p-6">
         At{" "}
