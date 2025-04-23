@@ -28,15 +28,15 @@ const onSubmit = (evt) =>{
 
             <form onSubmit={onSubmit} className="flex flex-col">
                 <label className="font-semibold">Name
-                <input type="text" name="name" value={value.name} onChange={handleChange} className="border mb-6 flex flex-col w-full"/>
+                <input type="text" name="name" value={value.name} onChange={handleChange} className="border mb-6 w-full font-normal"/>
                 </label>
 
                 <label className="font-semibold">Email
-                <input type="email" name="email" value={value.email} onChange={handleChange}  className="border mb-6 flex flex-col w-full"/>
+                <input type="email" name="email" value={value.email} onChange={handleChange}  className="border mb-6 w-full font-normal"/>
                 </label>
 
                 <label className="font-semibold">Message
-                <input type="text" name="message" value={value.message} onChange={handleChange} className="border mb-6 flex flex-col w-full "/>
+                <textarea name="message" value={value.message} onChange={handleChange} rows="4" className="border mb-6 w-full font-normal"></textarea>
                 </label>
  <div>
             <button className="border p-2 rounded-lg bg-black text-white">Send Message</button>
@@ -47,7 +47,14 @@ const onSubmit = (evt) =>{
 
                
 
-            <p className="py-2 text-gray-500">or email directly for enquires at <span className="text-blue-500">enquires@bespokewebengineers.com</span></p>
+            <p className="py-2 text-gray-500">or email directly for enquires at{" "}  
+            <a href="mailto:farhanaaktar@live.co.uk"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-400"
+            >enquires@bespokewebengineers.com</a>
+            </p>
+                
             
             </div>
         </div>
