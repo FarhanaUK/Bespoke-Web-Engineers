@@ -1,7 +1,7 @@
 
 import About from './components/About'
 import BusinessName from './components/BusinessName'
-import CallToAcgtion from './components/CallToAction'
+import CallToAction from './components/CallToAction'
 import Contact from './components/Contact'
 import BookNow from './components/BookNow'
 import FAQs from './components/FAQs'
@@ -14,7 +14,7 @@ import PrivacyPolicy from './components/PrivacyPolicy'
 import ProcessingTimeMap from './components/ProcessingTimeMap'
 import Services from './components/Services'
 import TermsAndConditions from './components/TermsAndConditions'
-import Testimonoals from './components/Testimonials'
+import Testimonials from './components/Testimonials'
 import {Routes, Route} from 'react-router-dom'
 
 function App() {
@@ -31,7 +31,7 @@ function App() {
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
         <Route path="About" element={<About />} />
         <Route path="BookNow" element={<BookNow />} />
-        <Route path="CallToAcgtion" element={<CallToAcgtion />} />
+        <Route path="CallToAction" element={<CallToAction />} />
         <Route path="Contact" element={<Contact/>} />
         <Route path="FAQs" element={<FAQs />} />
         <Route path="Portfolio" element={<Portfolio />} />
@@ -39,7 +39,7 @@ function App() {
         <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
         <Route path="ProcessingTimeMap" element={<ProcessingTimeMap />} />
         <Route path="Services" element={<Services />} />
-        <Route path="Testimonoals" element={<Testimonoals />} />
+        <Route path="Testimonials" element={<Testimonials />} />
       </Routes>
 </div>
       <Footer />

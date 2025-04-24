@@ -1,7 +1,15 @@
+import { Menu, X } from 'lucide-react'
+import { useState } from 'react'
 import {Link} from "react-router-dom"
 
 
 function NavMenu() {
+
+    const [isOpen, setIsOpen] = useState(false)
+
+    function toggleMenu() {
+        setIsOpen(prev => !prev)
+    }
 
     return(
         <div className="flex justify-end items-center space-x-12 mt-6 mr-32">

@@ -1,0 +1,227 @@
+[33mcommit dce6f488c75d100cad2a2d07bdbd787773be3214[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Wed Apr 23 12:16:52 2025 +0100
+
+    email linked
+
+[33mcommit 4bf23f2121d05a0a48f9c359ac77367bfea4de21[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Mon Apr 21 18:21:16 2025 +0100
+
+    form created
+
+[33mcommit 48f5d32340f3b3f8bf94d750f4ceb0fedd00bcc1[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Mon Apr 21 17:56:49 2025 +0100
+
+    label added
+
+[33mcommit 1f61ba73eb4faa08c46b90c1ace2b7ba84331c81[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Mon Apr 21 17:34:53 2025 +0100
+
+    contacts form started
+
+[33mcommit c3d385aa999566bcefffac3a3626416740e813b3[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Mon Apr 21 17:01:36 2025 +0100
+
+    new nav added
+
+[33mcommit 55f530d8fc482d5ab9f83a8cd901706ea2e7c89c[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Mon Apr 21 16:55:47 2025 +0100
+
+    Nav menu alignment fixed
+
+[33mcommit b19ea600a3502f1b5c6453be365a075b256a32ae[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Mon Apr 21 16:36:26 2025 +0100
+
+    Service page complete
+
+[33mcommit ede62a5285fdca42d1f9b61fc00a48c86b50b04c[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sun Apr 20 14:18:11 2025 +0100
+
+    price layout wip
+
+[33mcommit 2387f1de942b41190350240d6288d1955bc6eb37[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sun Apr 20 12:23:23 2025 +0100
+
+    cards added to pricing
+
+[33mcommit 0a6609bf600c27ed0f577e9e283073c971a3d207[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sun Apr 20 11:58:19 2025 +0100
+
+    Pricing content created
+
+[33mcommit d06b7269b024233680bbbeb01330d61e98e956a5[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sat Apr 19 20:05:16 2025 +0100
+
+    Terms and conditions complete
+
+[33mcommit 10bef91f9ae61e3b7c2a24dd641806279f24eab5[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sat Apr 19 19:24:35 2025 +0100
+
+    faq complete
+
+[33mcommit 67de45d50cc0b7ed99638b30f8b9f764e6204b53[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sat Apr 19 18:53:12 2025 +0100
+
+    mapped
+
+[33mcommit d8ee4d651bb6ac58d8f9f297230e627a80052786[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Sat Apr 19 18:25:44 2025 +0100
+
+    Q&A done
+
+[33mcommit f3038bbdf81bd35127bbc7c602f3c90621b7c93a[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 18 15:44:56 2025 +0100
+
+    services height added
+
+[33mcommit bf9dff48d0b20085edf44264ec70e05bfc118e0a[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 18 15:28:45 2025 +0100
+
+    About section complete
+
+[33mcommit 83673c6200e000268d7bfd997e57c9f465ac0ad0[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 18 14:16:53 2025 +0100
+
+    roadmap style updated
+
+[33mcommit 95eb3f2fcb0b407339071233251be601a4ad732e[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 18 13:40:47 2025 +0100
+
+    road map complete
+
+[33mcommit 3a813b9651934e3bdc5ac127c6a4f022fdb4f335[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 18 11:41:56 2025 +0100
+
+    background added to hero
+
+[33mcommit 991e29d7d9f51dbdb6039558516047666a07721c[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Wed Apr 16 12:05:14 2025 +0100
+
+    what to expect done
+
+[33mcommit 6e5f897dbeeda023bd91b36bc61760cf7e0cd1ad[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 20:23:39 2025 +0100
+
+    image blobs changed
+
+[33mcommit b8f6915daa15a8184b359b3c04a7cee7ca0e0165[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 20:00:24 2025 +0100
+
+    WIP
+
+[33mcommit 895c38f18c88d4a04cda40fd8cfbcbdba3891f24[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 19:41:39 2025 +0100
+
+    services done
+
+[33mcommit 042d28802086228dfce8cd1ca5702d490bde05c1[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 18:07:11 2025 +0100
+
+    Hero in progress
+
+[33mcommit 06f937ddaf4e190b38e1d0edf7d8e9f407ca4822[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 12:43:38 2025 +0100
+
+    services in progress
+
+[33mcommit d138622a3a67f3dcf0fa80e83601ccd79044c71d[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 12:21:32 2025 +0100
+
+    text over image
+
+[33mcommit ab344e26c06e2035d8f4ba1193115ed65858d703[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Tue Apr 15 11:24:04 2025 +0100
+
+    contact button added
+
+[33mcommit c1e906a8b6d87b0e7cb8e5952c7cf6a59c0e39ed[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 11 20:01:59 2025 +0100
+
+    svg files
+
+[33mcommit cd86120815e96a58eabefa8f8988beb7c1c35231[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 11 19:15:46 2025 +0100
+
+    Nav created
+
+[33mcommit 4db956c302a26c0a91286516882124beb5b4f936[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 11 19:08:56 2025 +0100
+
+    start NavMenu
+
+[33mcommit 1078dccbf7543545493603ff5c8a237c083c89c9[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 11 18:16:31 2025 +0100
+
+    Working on Footer
+
+[33mcommit a70dfeeee65852f630271472b7397c93779d371b[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Fri Apr 11 16:41:23 2025 +0100
+
+    Components created
+
+[33mcommit ef4ff062e80587ff36ff6b391ce5563b9c04343a[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Thu Apr 10 17:48:15 2025 +0100
+
+    google fonts added
+
+[33mcommit b0c91dc896034e247814f518c41e9660ae4822b3[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Thu Apr 10 16:25:45 2025 +0100
+
+    Tailwind installed
+
+[33mcommit fbb0e5b20693cf8e167d1894ab7244a2875fcf5e[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Thu Apr 10 16:21:38 2025 +0100
+
+    firebase connected
+
+[33mcommit 19d49d7e27ab0882c5c6e61b1907606d15623982[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Thu Apr 10 16:17:28 2025 +0100
+
+    Connect firebase
+
+[33mcommit ea34dd118baea231d41cbbf52c85978994bf024f[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Thu Apr 10 16:15:16 2025 +0100
+
+    first commit
+
+[33mcommit b432eded3521805c6092fe482a851bef19983ed7[m
+Author: Farhana Aktar <farhanaaktar@live.co.uk>
+Date:   Thu Apr 10 16:14:18 2025 +0100
+
+    initial setup
