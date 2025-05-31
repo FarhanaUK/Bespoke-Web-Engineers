@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+
 import Services from "./Services";
 import ProcessingTimeMap from "./ProcessingTimeMap";
 import CallToAction from "./CallToAction";
@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="w-full px-4 sm:px-8 md:px-12 mt-4 space-y-16">
       {/* === Layout A: Original Style for Desktop === */}
-      <div className="hidden md:block relative w-full h-[400px] bg-slate-800 rounded-xl ">
+      <div className="hidden lg:block relative w-full h-[400px] bg-slate-800 rounded-xl ">
         {/* Left Image */}
         <img
           src="red.svg"
@@ -23,7 +23,7 @@ function Hero() {
         />
 
         {/* Right Text Box */}
-        <div className="absolute right-10 top-2/5 transform -translate-y-1/2 w-[25%] bg-gray-900 rounded-xl opacity-90 text-white p-4 flex flex-col items-end text-left">
+        <div className="absolute right-10 top-2/5 transform -translate-y-1/2 w-[25%] bg-gray-900 rounded-xl opacity-90 text-white p-4 px-4 text-left">
           <h2 className="text-2xl font-bold mr-24">
             Innovative Solutions Built With Clean Code And SEO Optimization
           </h2>
@@ -43,7 +43,7 @@ function Hero() {
 
         {/* Bottom Center Text */}
         <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-full text-center my-5">
-          <h2 className="font-bold text-lg text-white">
+          <h2 className="font-bold italic text-lg text-white">
             Supporting small businesses and individuals get started
           </h2>
         </div>
@@ -62,7 +62,7 @@ function Hero() {
       </div>
 
       {/* === Layout B: Mobile / Tablet Friendly === */}
-      <div className="md:hidden flex flex-col items-center bg-slate-800 rounded-xl p-6 space-y-8 relative overflow-hidden">
+      <div className="lg:hidden flex flex-col items-center bg-slate-800 rounded-xl p-6 space-y-2 relative overflow-hidden">
         {/* Blue background image - top right */}
         <img
           src="/blue.svg"
@@ -90,7 +90,7 @@ function Hero() {
         {/* Logo Image */}
         <img src="/3.png" alt="Logo" className="w-3/4 object-contain" />
         <div className="absolute bottom-40 left-1/2 -translate-x-1/2 w-full text-center my-5">
-          <h2 className="font-bold text-sm text-white">
+          <h2 className="font-bold italic text-sm sm:text-base md:text-lg text-white">
             Supporting small businesses and individuals get started
           </h2>
         </div>

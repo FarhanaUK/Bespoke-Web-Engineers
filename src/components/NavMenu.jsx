@@ -16,6 +16,9 @@ function NavMenu() {
   return (
     <div className="mt-6 mr-6 sm:mr-12 md:mr-32">
       <div className="hidden md:flex justify-end items-center space-x-12">
+      <Link to="/Test" className="hover:underline">
+          Test
+        </Link>
         <Link to="/About" className="hover:underline">
           ABOUT
         </Link>

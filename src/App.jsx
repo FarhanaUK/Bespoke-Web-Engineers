@@ -16,7 +16,7 @@ import Services from './components/Services'
 import TermsAndConditions from './components/TermsAndConditions'
 import Testimonials from './components/Testimonials'
 import {Routes, Route} from 'react-router-dom'
-
+import Test from './components/Test'
 function App() {
   
 //add the thing for scrolling 
@@ -26,6 +26,8 @@ function App() {
 
         <NavMenu/>
         <BusinessName/>
+
+        <main className='flex-grow'>
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
@@ -40,7 +42,9 @@ function App() {
         <Route path="ProcessingTimeMap" element={<ProcessingTimeMap />} />
         <Route path="Services" element={<Services />} />
         <Route path="Testimonials" element={<Testimonials />} />
+        <Route path="Test" element={<Test />} />
       </Routes>
+      </main>
 </div>
       <Footer />
     </div>
