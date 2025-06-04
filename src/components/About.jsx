@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="flex flex-col justify-start items-center pt-2 px-8">
-      <h1 className="text-4xl font-semibold text-center mb-8">About Us</h1>
+    <div className="flex flex-col justify-start items-center">
+      <h1 className="text-center text-4xl font-semibold">About Us</h1>
 
       <p className="md:w-1/2 text-lg leading-relaxed text-gray-700 p-6">
         At{" "}
@@ -36,7 +36,7 @@ function About() {
         <h2 className=" text-2xl font-semibold text-[#26B7FF] mb-4">
           Our Mission
         </h2>
-        <p className="text-gray-700 leading-relaxed">
+        <p className="c leading-relaxed">
           To empower small businesses with beautiful, functional websites that
           build trust, drive growth, and make an impact—without the hassle.
         </p>
