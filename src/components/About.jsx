@@ -36,7 +36,7 @@ function About() {
         <h2 className=" text-2xl font-semibold text-[#26B7FF] mb-4">
           Our Mission
         </h2>
-        <p className="c leading-relaxed">
+        <p className="text-gray-700 leading-relaxed">
           To empower small businesses with beautiful, functional websites that
           build trust, drive growth, and make an impact—without the hassle.
         </p>
