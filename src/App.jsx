@@ -24,7 +24,7 @@ function App() {
 //add the thing for scrolling 
   return (
     <div className="bg-neutral-100 min-h-screen flex flex-col">
-      <div className='flex-grow '>
+      
   
         <NavMenu/>
         <BusinessName/>
@@ -50,7 +50,6 @@ function App() {
         <Route path="Test" element={<Test />} />
       </Routes>
       </main>
-</div>
       <Footer />
     </div>
   );
