@@ -14,7 +14,7 @@ function Pricing() {
             <h2 className="font-bold mb-2">1. Landing Page</h2>
             <p className="text-gray-700">
               Perfect for businesses or individuals who need a single page to
-              showcase what they do and drive action — like bookings, sign-ups,
+              showcase what they do and drive action, like bookings, sign-ups,
               or inquiries.
             </p>
             <ul className="list-disc ml-4 mt-2 text-gray-700">
@@ -47,7 +47,7 @@ function Pricing() {
             <h2 className="font-bold mb-2">3. Maintenance Plan</h2>
             <p className="text-gray-700">
               Keep your website fresh and functional without worrying about
-              tech. We’ll handle small updates for you — like text and image
+              tech. We’ll handle small updates for you, like text and image
               changes.
             </p>
             <ul className="list-disc ml-4 mt-2 text-gray-700">
