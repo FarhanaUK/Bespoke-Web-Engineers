@@ -17,17 +17,22 @@ import TermsAndConditions from './components/TermsAndConditions'
 import Testimonials from './components/Testimonials'
 import {Routes, Route} from 'react-router-dom'
 import Test from './components/Test'
+import ScrollToTop from './components/ScrollToTop'
+
 function App() {
   
 //add the thing for scrolling 
   return (
     <div className="bg-neutral-100 min-h-screen flex flex-col">
-      <div className='flex-grow'>
-
+      <div className='flex-grow '>
+  
         <NavMenu/>
         <BusinessName/>
+        
 
-        <main className='flex-grow'>
+        <main className='flex-grow '>
+        <ScrollToTop />
+
       <Routes>
         <Route path="/" element={<Hero />} />
         <Route path="TermsAndConditions" element={<TermsAndConditions />} />
