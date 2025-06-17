@@ -20,6 +20,7 @@ function Pricing() {
             <ul className="list-disc ml-4 mt-2 text-gray-700">
               <li>Clean, modern design</li>
               <li>Call-to-action buttons</li>
+              <li>Fully responsive design (desktop, tablet, and mobile)</li>
               <li>Contact form</li>
             </ul>
             <p className="font-bold mt-2">Starting at: £150</p>

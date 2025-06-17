@@ -32,18 +32,21 @@ const isFullPage = location.pathname === "/Services"
   <section className="space-y-6">
     <h2 className="text-2xl font-semibold mb-3">SEO Optimisation</h2>
     <p className="text-gray-700">
-      Boost your website’s visibility with our SEO optimization services. We focus on both on-page 
-      and off-page SEO, helping your site rank higher on search engines like Google. From optimizing 
-      metadata and improving site speed to enhancing your keyword strategy, we implement best practices 
-      that drive organic traffic to your site. Our goal is to improve your search rankings and help you 
-      attract more visitors.
+      Boost your website’s visibility with our one-time SEO setup included in your website build. 
+      We focus on essential on-page SEO to help your site rank higher on search engines like Google
+       by implementing best practices during development. Our goal is to give your website a strong 
+       SEO foundation so you can attract more visitors right from launch.
     </p>
     <ul className="list-disc pl-5 space-y-2 text-gray-700">
-      <li>In-depth SEO audit to identify opportunities</li>
+      <li> Google Analytics setup</li>
+      <li>Google Search Console setup</li>
       <li>Optimization of on-page elements (titles, meta descriptions, headers, etc.)</li>
-      <li>Mobile optimization for better performance</li>
-      <li>Continuous performance tracking and adjustments</li>
+      <li> Mobile optimization for better performance</li>
+      <li>Fast-loading images and lazy loading for speed</li>
     </ul>
+    <p>Please note: Ongoing SEO monitoring and performance adjustments are not included. We’ll set everything up and hand over access so you’re ready to grow or bring in a specialist whenever you want.
+
+</p>
   </section>
 
   <section className="space-y-6">
@@ -66,7 +69,7 @@ const isFullPage = location.pathname === "/Services"
     <h2 className="text-2xl font-semibold mb-3">Content Writing</h2>
     <p className="text-gray-700">
       Content is the heart of any website. We offer professional content writing services to ensure that 
-      your site communicates your brand message clearly and effectively. Whether it's web copy, blogs, or product 
+      your site communicates your brand message clearly and effectively. Whether it's web copy or product 
       descriptions, we create engaging content that speaks directly to your target audience, enhances your brand 
       image, and improves user engagement.
     </p>
