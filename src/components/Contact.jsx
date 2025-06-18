@@ -48,7 +48,7 @@ const onSubmit = (evt) =>{
                
 
             <p className="py-2 text-gray-500">or email directly for enquires at{" "}  
-            <a href="mailto:farhanaaktar@live.co.uk"
+            <a href="mailto:enquires@bespokewebengineers.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-400"

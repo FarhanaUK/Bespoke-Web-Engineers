@@ -10,30 +10,34 @@ function TermsAndConditions() {
     
           <h2 className="text-2xl font-semibold mb-3">1. Services</h2>
           <p className="text-gray-700">
-            We offer the following services:
-            <ul className="list-disc ml-6">
+            “We offer custom-built websites tailored to each client’s needs, using HTML, 
+            CSS, JavaScript, and React. Our services include SEO setup, responsive design,
+             monthly maintenance, content writing, hosting setup using Firebase, and domain setup or transfer. </p>
+            <ul className="list-disc ml-6 text-gray-700">
               <li>Custom-coded websites built with HTML, CSS, JavaScript, and React</li>
               <li>SEO optimization</li>
               <li>Hosting setup using Firebase</li>
               <li>Domain setup and transfer</li>
-              <li>Monthly maintenance (including updates, bug fixes, and security patches)</li>
+              <li>Monthly maintenance (including updates and bug fixes)</li>
               <li>Content writing (if needed)</li>
               <li>Responsive design for all devices</li>
+              <li>Every new website includes 7 days of free maintenance to cover any quick updates or fixes after launch.</li>
             </ul>
-          </p>
+         
     
           <h2 className="text-2xl font-semibold mb-3">2. Pricing and Payment</h2>
           <p className="text-gray-700">
             The pricing for our services is based on the scope of work required. A non-refundable deposit of 50% is required to initiate the project. The remaining 50% is due upon the website's launch.
           </p>
           <p className="text-gray-700">
-            Payment for monthly maintenance will be invoiced monthly and must be paid on or before the 1st day of each month.
+            Payment for monthly maintenance will be invoiced monthly and must be paid on or before the 1st day of each month. Failure to pay by the 1st may result in a suspension of services until payment is received.
           </p>
           <p className="text-gray-700">
             Payments can be made via Stripe using a bank card. Other methods may be available upon request.
           </p>
+          <p className="text-gray-700">Pricing begins at £150 for a landing page and £300+ for multi-page websites, depending on project scope.</p>
           <p className="text-gray-700">
-            <strong>Late Payments:</strong> If the final 50% of the payment is not received on time, the website will be taken down, and a late fee of 5% of the final amount per week will be added to the outstanding balance. If payment is not received after 14 days, the agreement may be terminated.
+            <strong>Late Payments:</strong> If the final 50% of the payment is not received on time, the website will be taken down, and a late fee of 5% of the final amount per week will be added to the outstanding balance. If payment is not received after 14 days, the agreement may be terminated. Other payments are refundable only if work has not yet commenced on that stage.
           </p>
     
           <h2 className="text-2xl font-semibold mb-3">3. Ownership</h2>
@@ -53,8 +57,13 @@ function TermsAndConditions() {
           </p>
     
           <h2 className="text-2xl font-semibold mb-3">5. Monthly Maintenance</h2>
+          <p className="text-gray-700">All websites come with 7 days of free maintenance starting from the website's launch date. This includes minor bug fixes, text/image changes, and basic support.
+
+If the client wishes to continue maintenance beyond this period, the £50/month plan will apply and be invoiced starting from day 8, unless canceled in writing.
+
+</p>
           <p className="text-gray-700">
-            Monthly maintenance is available for £[amount] per month. It includes regular updates to the website (content updates, security patches, minor bug fixes), but major redesigns or additions of new features are excluded.
+            Monthly maintenance is available at a discounted price for £50.00 per month. It includes regular updates to the website (content updates, security patches, minor bug fixes), but major redesigns or additions of new features are excluded.
           </p>
           <p className="text-gray-700">
             The maintenance agreement will automatically renew each month unless canceled by either party with 30 days written notice.

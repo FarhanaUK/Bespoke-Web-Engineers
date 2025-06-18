@@ -14,7 +14,7 @@ const isFullPage = location.pathname === "/Services"
   <div className="pt-2 px-8 space-y-8 max-w-4xl mx-auto text-gray-800">
   <section className="space-y-6">
     <h2 className="text-2xl font-semibold mb-3">Web Development</h2>
-    <p className="text-gray-700">
+    <p className="text-gray-700 leading-relaxed leading-relaxed">
       We specialize in creating fully custom websites using clean, efficient, and performant code. 
       Whether you're looking for a single landing page or a complex multi-page site, we deliver 
       responsive and high-performance websites tailored to your business goals. We work closely with 
@@ -84,17 +84,18 @@ const isFullPage = location.pathname === "/Services"
   <section className="space-y-6">
     <h2 className="text-2xl font-semibold mb-3">Monthly Maintenance</h2>
     <p className="text-gray-700">
-      Keep your website running smoothly with our monthly maintenance packages. We offer ongoing support to 
-      ensure that your site stays up-to-date, secure, and error-free. From software updates to content revisions 
-      and troubleshooting, we handle the technical side so you can focus on your business. Regular maintenance 
-      also helps improve site performance and security, reducing downtime and ensuring a positive user experience.
+      Keep your website fresh, functional, and stress-free.
+       We’ll take care of small edits and regular check-ins,
+        so you can focus on running your business.
     </p>
     <ul className="list-disc pl-5 space-y-2 text-gray-700">
-      <li>Regular software updates and security patches</li>
-      <li>Content updates to keep your site fresh and relevant</li>
-      <li>Performance optimization and troubleshooting</li>
-      <li>Backup and security monitoring</li>
+      <li>Monthly content updates (text/images)</li>
+      <li>Minor visual tweaks</li>
+      <li>Light bug checks (small fixes only — major issues quoted separately)</li>
+      <li>Up to 2–4 changes per month</li>
+      <li>Site check-ins to catch any obvious problems early</li>
     </ul>
+    <em>Note: This plan does not cover major bugs, rebuilds, or third-party platform issues — those will be quoted separately.</em>
   </section>
 
   <section className="space-y-6">

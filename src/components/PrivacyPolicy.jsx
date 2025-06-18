@@ -66,12 +66,19 @@ function PrivacyPolicy() {
 
       <h2 className="text-xl font-semibold mt-6 mb-2">7. Contact Us</h2>
       <p className="mb-4 text-gray-700">
-        If you have questions about this Privacy Policy or how your data is used, contact us at: <strong>your@email.com</strong>
+        If you have questions about this Privacy Policy or how your data is used, contact us at{" "} 
+        <strong>
+        <a href ="mailto: enquires@bespokewebengineers.com"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-400"
+        >enquires@bespokewebengineers.com</a>
+        </strong>
       </p>
 
-      <p className="text-sm text-gray-500 mt-6">Last updated: April 2025</p>
+      <p className="text-sm text-gray-500 mt-6">Last updated: {new Date().toLocaleString('default', { month: 'long', year: 'numeric' })} </p>
         
-        </div>
+        </div> 
     )
 }
 
