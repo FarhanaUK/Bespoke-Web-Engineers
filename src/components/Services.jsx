@@ -14,7 +14,7 @@ const isFullPage = location.pathname === "/Services"
   <div className="pt-2 px-8 space-y-8 max-w-4xl mx-auto text-gray-800">
   <section className="space-y-6">
     <h2 className="text-2xl font-semibold mb-3">Web Development</h2>
-    <p className="text-gray-700 leading-relaxed leading-relaxed">
+    <p className="text-gray-700 leading-relaxed">
       We specialize in creating fully custom websites using clean, efficient, and performant code. 
       Whether you're looking for a single landing page or a complex multi-page site, we deliver 
       responsive and high-performance websites tailored to your business goals. We work closely with 
@@ -125,7 +125,7 @@ const isFullPage = location.pathname === "/Services"
             alt="web developement"
             className="w-1/2"
           />
-          <h2 className="font-bold ">Web Development</h2>
+          <h2 className="font-bold my-2 ">Web Development</h2>
           <p className="h-20">Custom build websites with raw code.</p>
         </div>
 
@@ -159,13 +159,13 @@ const isFullPage = location.pathname === "/Services"
           <img src="/maintenance.svg" alt="Maintenance" className="w-1/2" />
           <h2 className="font-bold my-2">Monthly Maintenance</h2>
           <p className="h-20">
-            Peace of mind as the developers wirte the contect for your website{" "}
+            Updates and small fixes to keep your website running smoothly.
           </p>
         </div>
         <div className=" bg-white px-2 py-2 text-center border rounded-lg aspect-square w-64 flex flex-col justify-center items-center">
           <img src="domain.svg" alt="hosting and domain" className="w-1/2" />
           <h2 className="font-bold my-2">Hosting Domain Setup</h2>
-          <p>
+          <p className="h-20">
             Everything you need to claim your space on the internet—set up and
             ready to go.
           </p>
