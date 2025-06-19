@@ -35,7 +35,7 @@ function TermsAndConditions() {
           <p className="text-gray-700">
             Payments can be made via Stripe using a bank card. Other methods may be available upon request.
           </p>
-          <p className="text-gray-700">Pricing begins at £150 for a landing page and £300+ for multi-page websites, depending on project scope.</p>
+          <p className="text-gray-700">Pricing begins at £150.00 for a landing page and £300.00+ for multi-page websites, depending on project scope.</p>
           <p className="text-gray-700">
             <strong>Late Payments:</strong> If the final 50% of the payment is not received on time, the website will be taken down, and a late fee of 5% of the final amount per week will be added to the outstanding balance. If payment is not received after 14 days, the agreement may be terminated. Other payments are refundable only if work has not yet commenced on that stage.
           </p>
@@ -59,7 +59,7 @@ function TermsAndConditions() {
           <h2 className="text-2xl font-semibold mb-3">5. Monthly Maintenance</h2>
           <p className="text-gray-700">All websites come with 7 days of free maintenance starting from the website's launch date. This includes minor bug fixes, text/image changes, and basic support.
 
-If the client wishes to continue maintenance beyond this period, the £50/month plan will apply and be invoiced starting from day 8, unless canceled in writing.
+If the client wishes to continue maintenance beyond this period, the £50.00/month plan will apply and be invoiced starting from day 8, unless canceled in writing.
 
 </p>
           <p className="text-gray-700">

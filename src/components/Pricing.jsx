@@ -5,11 +5,11 @@ function Pricing() {
     <div>
       <h1 className="text-center text-4xl font-semibold">Pricing</h1>
 
-      {/* Flex container for the section and image */}
+      
       <div className="flex p-12">
-        {/* Left Section: Text and Pricing Details */}
+       
         <div className="w-1/2">
-          {/* Pricing sections */}
+         
           <section className="shadow-xl rounded-lg bg-white p-4 mb-6">
             <h2 className="font-bold mb-2">1. Landing Page</h2>
             <p className="text-gray-700">
@@ -23,7 +23,7 @@ function Pricing() {
               <li>Fully responsive design (desktop, tablet, and mobile)</li>
               <li>Contact form</li>
             </ul>
-            <p className="font-bold mt-2">Starting at: £150</p>
+            <p className="font-bold mt-2">Starting at: £150.00</p>
           </section>
 
           <section className="shadow-xl rounded-lg bg-white p-4 mb-6">
@@ -40,8 +40,11 @@ function Pricing() {
               <li>Contact form, embedded media (images or video)</li>
             </ul>
             <p className="font-bold mt-2">
-              Starting at: £300–£500 (depending on the complexity)
+              Starting at: £300.00–£500.00 (depending on the complexity)
             </p>
+            <p className="text-gray-500">
+            <em>You can add more pages or features beyond the listed packages. Additional work will be quoted separately based on your needs.</em>
+         </p>
           </section>
 
           <section className="shadow-xl rounded-lg bg-white p-4 mb-6">
@@ -56,7 +59,7 @@ function Pricing() {
               <li>Minor visual changes and tweaks</li>
               <li>Up to 2–4 changes per month</li>
             </ul>
-            <p className="font-bold mt-2">Price: £50/month</p>
+            <p className="font-bold mt-2">Price: £50.00/month</p>
             <p className="text-gray-500">
               <em>Note: This is an introductory rate. 50% off</em>
             </p>
@@ -65,8 +68,8 @@ function Pricing() {
           <section className="shadow-xl rounded-lg bg-white p-4 mb-6">
             <h2 className="font-bold mb-2">Pricing Information</h2>
             <p className="text-gray-700">
-              Our prices start from <strong>£150 for a landing page</strong> and{" "}
-              <strong>£300 for a simple website</strong>. Every project is
+              Our prices start from <strong>£150.00 for a landing page</strong> and{" "}
+              <strong>£300.00 for a simple website</strong>. Every project is
               unique, so we offer custom quotes after a free consultation.
             </p>
             <p>
