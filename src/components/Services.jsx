@@ -110,7 +110,7 @@ const isFullPage = location.pathname === "/Services"
       <li>Domain registration and configuration</li>
       <li>Secure and reliable hosting setup</li>
       <li>DNS management and email configuration</li>
-      <li>Ongoing monitoring and support for uptime</li>
+      
     </ul>
   </section>
 </div>

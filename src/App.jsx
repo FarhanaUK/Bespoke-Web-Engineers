@@ -12,6 +12,7 @@ import Portfolio from './components/Portfolio'
 import Pricing from './components/Pricing'
 import PrivacyPolicy from './components/PrivacyPolicy'
 import ProcessingTimeMap from './components/ProcessingTimeMap'
+import PromoBanner from './components/PromoBanner'
 import Services from './components/Services'
 import TermsAndConditions from './components/TermsAndConditions'
 import Testimonials from './components/Testimonials'
@@ -19,13 +20,14 @@ import {Routes, Route} from 'react-router-dom'
 import Test from './components/Test'
 import ScrollToTop from './components/ScrollToTop'
 
+
 function App() {
   
 //add the thing for scrolling 
   return (
     <div className="bg-neutral-100 min-h-screen flex flex-col">
       
-  
+        <PromoBanner/>
         <NavMenu/>
         <BusinessName/>
         

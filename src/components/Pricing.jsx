@@ -82,26 +82,7 @@ function Pricing() {
          
         </div>
 
-        {/* Right Section: Image with Overlaid Text */}
-        <div className="w-1/2 relative">
-          <img
-            src="/circle.png"
-            alt="BWE"
-            className="w-full h-auto object-contain rounded-lg" // Ensures the image isn't stretched
-          />
-          {/* Overlaid Text */}
-          <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full flex flex-col items-center justify-center text-red-700 p-4">
-            <p className="text-2xl font-semibold mb-4 ml-6">Limited Time Offer: 50% Off Maintenance Plan</p>
-            <p className="text-lg">Reduced Price on All Websites — Act Fast!</p>
-            
-            <div> <Link to="/Contact">
-            <button className="border font-black rounded-lg hover:bg-blue-100 p-2 bg-[#26B7FF]">
-              Book Now
-            </button>
-          </Link></div>
-          </div>
-          
-        </div>
+        
       </div>
     </div>
   );
