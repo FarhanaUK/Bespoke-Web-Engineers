@@ -6,7 +6,7 @@ function Pricing() {
       <h1 className="text-center text-4xl font-semibold">Pricing</h1>
 
       
-      <div className="flex p-12">
+      <div className="flex justify-center p-12">
        
         <div className="w-1/2">
          
