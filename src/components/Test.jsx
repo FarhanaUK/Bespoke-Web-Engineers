@@ -16,7 +16,10 @@ function Test() {
 
         {/* 🔵 Blue Image - right of logo */}
         <div className="absolute top-1/2 right-10 transform -translate-y-1/2 z-10">
-          <img src="blue.svg" alt="Blue" className="w-[400px] min-w-[350px]" />
+          <img 
+          src="blue.svg"
+          alt="Blue" 
+          className="w-[400px] min-w-[350px]" />
           {/* Text on top with border */}
           <div className="absolute top-1/2 left-1/2 w-96 transform -translate-x-1/2 -translate-y-1/2 bg-gray-900 rounded-xl opacity-85 text-white p-4 text-left">
             <h2 className="text-2xl font-bold">

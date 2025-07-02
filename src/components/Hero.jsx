@@ -23,22 +23,22 @@ function Hero() {
         />
 
         {/* Right Text Box */}
-        <div className="absolute right-10 top-2/5 transform -translate-y-1/2 w-[25%] bg-gray-900 rounded-xl opacity-90 text-white p-4 px-4 text-left">
-          <h2 className="text-2xl font-bold mr-24">
-            Innovative Solutions Built With Clean Code And SEO Optimization
-          </h2>
-          <p className="mt-2">
-            Custom coded to perfectly match your brand identity and business
-            objectives. Every line of code is carefully crafted for optimal performance
-            and user experience.
-          </p>
-        </div>
+        <div className="absolute top-1/2 left-4/5 w-96 transform -translate-x-1/2 -translate-y-1/2 bg-gray-900 rounded-xl opacity-85 text-white p-4 text-left z-10">
+            <h2 className="text-2xl font-bold">
+              Innovative Solutions Built With Clean Code And SEO Optimization
+            </h2>
+            <p className="text-lg mt-2">
+              Custom coded to perfectly match your brand identity and business
+              objectives. Every line of code is carefully crafted for optimal
+              performance and user experience.
+            </p>
+          </div>
 
         {/* Center Logo */}
         <img
           src="/3.png"
           alt="BWE logo image"
-          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[150%] object-contain w-[90%]"
+          className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 h-[150%] object-contain w-[90%] z-0"
         />
 
         {/* Bottom Center Text */}
@@ -49,16 +49,16 @@ function Hero() {
         </div>
 
         {/* Bottom Left Text Box */}
-        <div className="absolute left-10 bottom-10 w-[28%] bg-gray-900 rounded-xl opacity-90 text-white p-4 text-left">
-          <h2 className="text-2xl font-bold text-white">
-            Premium Web Development Services
-          </h2>
-          <p className="mt-2">
-            From responsive design to e-commerce solutions, <br />
-            we create digital experiences that engage visitors
-            and convert them into customers.
-          </p>
-        </div>
+        <div className="absolute top-3/5 left-1/4 w-96 transform -translate-x-1/2 -translate-y-1/2 bg-gray-900 rounded-xl opacity-85 text-white p-4 text-left z-10">
+            <h2 className="text-2xl font-bold">
+              Premium Web Development Services
+            </h2>
+            <p className="text-lg mt-2">
+              From responsive design to e-commerce solutions, <br />
+              we create digital experiences that engage visitors and convert
+              them into customers.
+            </p>
+          </div>
       </div>
 
       {/* === Layout B: Mobile / Tablet Friendly === */}
