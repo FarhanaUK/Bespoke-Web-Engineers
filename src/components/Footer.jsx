@@ -14,6 +14,10 @@ function Footer() {
 
           </nav>
 
+          <div>
+            <a href="www.google.com">Instagram</a>
+          </div>
+
         </footer>
       
     );

@@ -21,7 +21,7 @@ const onSubmit = (evt) =>{
 
     return (
 
-        <div className="flex flex-col justify-center items-center space-y-4"> 
+        <div className="flex flex-col justify-center items-center space-y-4 pt-8 px-4 sm:px-6 md:px-8 max-w-4xl mx-auto"> 
             <h1 className="font-semibold text-4xl ">Contact Us</h1>
             <p className="text-gray-700">Got a question? Drop a message below!</p>
             <div className="mb-4">
