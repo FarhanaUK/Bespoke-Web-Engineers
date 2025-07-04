@@ -1,16 +1,16 @@
-import { Link } from "react-router-dom";
+
 
 function Pricing() {
   return (
     <div>
-      <h1 className="text-center text-4xl font-semibold">Pricing</h1>
+      <h1 className="text-center text-4xl font-semibold pt-8">Pricing</h1>
 
       
       <div className="flex justify-center p-12">
        
-        <div className="w-1/2">
+        <div className="w-full max-w-2xl px-4 mx-auto">
          
-          <section className="shadow-xl rounded-lg bg-white p-4 mb-6">
+          <section className="shadow-xl rounded-lg bg-white p-4 mb-6 ">
             <h2 className="font-bold mb-2">1. Landing Page</h2>
             <p className="text-gray-700">
               Perfect for businesses or individuals who need a single page to

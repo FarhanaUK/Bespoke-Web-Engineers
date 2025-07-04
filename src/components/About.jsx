@@ -5,7 +5,7 @@ function About() {
     <div className="flex flex-col justify-start items-center pt-8">
       <h1 className="text-center text-4xl font-semibold">About Us</h1>
 
-      <p className="w-11/12 md:w-1/2 text-lg leading-relaxed text-gray-700 p-6 mx-auto">
+      <p className="pt-8 px-4 sm:px-6 md:px-8 max-w-4xl mx-auto text-gray-700 ">
         At{" "}
         <span className="font-semibold text-[#26B7FF]">
           Bespoke Web Engineers
@@ -22,7 +22,7 @@ function About() {
                that work as hard as you do. Let’s take your business to the next level with a website that truly works for you.
       </p>
       <Link to="/Contact">
-        <button className="border rounded-lg hover:bg-blue-100 p-3 px-6 mb-12 bg-[#26B7FF] text-white">
+        <button className="border rounded-lg hover:bg-blue-500 p-3 px-6 my-12 bg-[#26B7FF] text-white">
           Book Now
         </button>
       </Link>
