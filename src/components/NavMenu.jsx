@@ -16,9 +16,6 @@ function NavMenu() {
   return (
     <div className="mt-6 mr-6 sm:mr-12 md:mr-32">
       <div className="hidden md:flex justify-end items-center space-x-12">
-      <Link to="/Test" className="hover:underline">
-          Test
-        </Link>
         <Link to="/About" className="hover:underline">
           ABOUT
         </Link>
@@ -43,7 +40,7 @@ function NavMenu() {
         <button onClick={toggleMenu} className="relative z-10">
           {!isOpen && <Menu size={28} />}
 
-          {isOpen && <Menu size={28} />}
+          
         </button>
 
         {isOpen && (

@@ -2,13 +2,13 @@ import { Link } from "react-router-dom";
 
 function About() {
   return (
-    <div className="flex flex-col justify-start items-center">
+    <div className="flex flex-col justify-start items-center pt-8">
       <h1 className="text-center text-4xl font-semibold">About Us</h1>
 
-      <p className="md:w-1/2 text-lg leading-relaxed text-gray-700 p-6">
+      <p className="w-11/12 md:w-1/2 text-lg leading-relaxed text-gray-700 p-6 mx-auto">
         At{" "}
         <span className="font-semibold text-[#26B7FF]">
-          Bespoke Web Eningeers
+          Bespoke Web Engineers
         </span>
        , we’re dedicated to transforming the web development industry.
         Based in the heart of London, we specialize in helping small businesses and startups create modern, 
@@ -22,12 +22,12 @@ function About() {
                that work as hard as you do. Let’s take your business to the next level with a website that truly works for you.
       </p>
       <Link to="/Contact">
-        <button className="border rounded-lg hover:bg-blue-100 p-2 mb-12 bg-[#26B7FF]">
+        <button className="border rounded-lg hover:bg-blue-100 p-3 px-6 mb-12 bg-[#26B7FF] text-white">
           Book Now
         </button>
       </Link>
 
-      <div className="bg-white rounded-2xl shadow-lg text-center p-8 mt-2 md:w-1/2 mb-12 border border-gray-100">
+      <div className="bg-white rounded-2xl shadow-lg text-center p-8 mt-2 mx-4 md:mx-0 md:w-1/2 mb-12 border border-gray-100">
         <h2 className=" text-2xl font-semibold text-[#26B7FF] mb-4">
           Our Mission
         </h2>

@@ -17,7 +17,6 @@ import Services from './components/Services'
 import TermsAndConditions from './components/TermsAndConditions'
 import Testimonials from './components/Testimonials'
 import {Routes, Route} from 'react-router-dom'
-import Test from './components/Test'
 import ScrollToTop from './components/ScrollToTop'
 
 
@@ -49,7 +48,6 @@ function App() {
         <Route path="ProcessingTimeMap" element={<ProcessingTimeMap />} />
         <Route path="Services" element={<Services />} />
         <Route path="Testimonials" element={<Testimonials />} />
-        <Route path="Test" element={<Test />} />
       </Routes>
       </main>
       <Footer />
