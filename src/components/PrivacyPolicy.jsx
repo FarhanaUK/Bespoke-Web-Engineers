@@ -1,7 +1,7 @@
 function PrivacyPolicy() {
 
     return(
-        <div className="max-w-3xl mx-auto p-6">
+        <div className="pt-8 px-4 sm:px-6 md:px-8 max-w-4xl mx-auto">
 <h1 className="font-semibold text-4xl text-center mb-8">Privacy Policy</h1>
 <p className="mb-4 text-gray-700">
         This Privacy Policy describes how we collect, use, and protect your information when you visit or interact with our website.

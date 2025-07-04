@@ -5,7 +5,7 @@ function TermsAndConditions() {
 
     
     return (
-        <div className="max-w-4xl mx-auto pt-2 px-8 space-y-8">
+        <div className="pt-8 px-4 sm:px-6 md:px-8 max-w-4xl mx-auto space-y-8">
           <h1 className="font-semibold text-4xl text-center mb-8">Terms & Conditions</h1>
     
           <h2 className="text-2xl font-semibold mb-3">1. Services</h2>
