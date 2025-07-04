@@ -8,10 +8,10 @@ const isFullPage = location.pathname === "/Services"
 
   return (
     <div>
-      <h1 className="text-center text-4xl font-semibold mb-8">Our Services</h1>
+      <h1 className="text-center text-4xl font-semibold mb-8 pt-8">Our Services</h1>
  {isFullPage? (
  <div>
-  <div className="pt-2 px-8 space-y-8 max-w-4xl mx-auto text-gray-800">
+  <div className="pt-2 px-4 sm:px-6 md:px-8 space-y-8 max-w-4xl mx-auto text-gray-800">
   <section className="space-y-6">
     <h2 className="text-2xl font-semibold mb-3">Web Development</h2>
     <p className="text-gray-700 leading-relaxed">
