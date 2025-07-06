@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="bg-stone-700 text-white py-8">
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row justify-between items-center px-4">
-        <nav className="space-y-2 md:space-y-0 md:space-x-6 text-center">
+        <nav className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-6 text-center">
           <Link to="/TermsAndConditions" className="hover:underline">Terms & Conditions</Link>
           <Link to="/PrivacyPolicy" className="hover:underline">Privacy Policy</Link>
           <Link to="/FAQS" className="hover:underline">FAQ</Link>
