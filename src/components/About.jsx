@@ -9,21 +9,28 @@ function About() {
         At{" "}
         <span className="font-semibold text-[#26B7FF]">
           Bespoke Web Engineers
-        </span>
-       , we’re dedicated to transforming the web development industry.
-        Based in the heart of London, we specialize in helping small businesses and startups create modern, 
-        clean, and functional websites that elevate their online presence and drive growth.
-         We’re passionate about supporting local entrepreneurs and business owners by providing tailored websites
-          that are easy to navigate, visually appealing, and built to attract more clients. Whether you’re a service provider,
-           a coach, or a growing business, our goal is to deliver a site that reflects your unique brand and helps your business succeed.
-            Although we are based in London, our services extend worldwide, with additional team support based in Dubai.
-             We are here to support businesses everywhere, offering top-tier web development with a personal touch.
-              Our approach is simple: no jargon, no unnecessary features, just high-quality, results-driven websites
-               that work as hard as you do. Let’s take your business to the next level with a website that truly works for you.
+         </span>
+        , we help small businesses and service providers stand out online with powerful, custom websites.
+        Based in London and serving clients worldwide, our web development services are designed to increase visibility,
+        generate leads, and grow your brand online.
+        <br /><br />
+
+        Whether you're a local business owner, coach, or startup founder, we build websites that are fast-loading, modern, and mobile-friendly, crafted to convert visitors into paying clients.
+        <br /><br />
+
+        Our team specializes in building clean, responsive websites tailored to your goals. We don’t believe in templates or bloated features, just bespoke designs that reflect your unique brand and speak directly to your audience.
+        <br /><br />
+
+   From our base in London and with our co-founder located in Dubai, Bespoke Web Engineers operates as a global team.  
+We work closely with clients to create websites that are not only visually stunning but also carefully optimized for search engine ranking, fast performance, and excellent user experience.
+<br /><br />
+
+        If you're ready to grow your business with a professional online presence, we’re here to help you launch with confidence.
       </p>
+
       <Link to="/Contact">
-        <button className="border rounded-lg hover:bg-blue-500 p-3 px-6 my-12 bg-[#26B7FF] text-white">
-          Book Now
+        <button className="border rounded-lg hover:bg-blue-500 p-3 px-6 my-12 bg-[#26B7FF] text-white transition duration-300">
+          Get a Free Consultation
         </button>
       </Link>
 
@@ -32,14 +39,13 @@ function About() {
           Our Mission
         </h2>
         <p className="text-gray-700 leading-relaxed">
-          To empower small businesses with beautiful, functional websites that
-          build trust, drive growth, and make an impact without the hassle.
+          To empower small businesses with custom websites that build trust, attract more clients, and turn online traffic into real results.
         </p>
         <h2 className=" text-2xl font-semibold text-[#26B7FF]  my-4">
           Our Vision
         </h2>
-        <p className="text-gray-700 leading-relaxed">
-          To empower small businesses around the world, redefining what it means to launch online with confidence.
+         <p className="text-gray-700 leading-relaxed">
+          To become the go-to web development partner for entrepreneurs worldwide, making professional websites accessible, affordable, and results-focused.
         </p>
       </div>
 

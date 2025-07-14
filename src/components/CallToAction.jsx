@@ -17,7 +17,7 @@ function CallToAction() {
         </p>
         <p className="ftext-slate-400 italic">— The Richest Man in Babylon</p>
         <Link to="/Contact">
-          <button className="border rounded-lg hover:bg-blue-100 p-2 bg-[#26B7FF]">
+          <button className="border rounded-lg hover:bg-blue-500 p-3 px-6 my-12 bg-[#26B7FF] text-white transition duration-300">
             Get Started
           </button>
         </Link>
