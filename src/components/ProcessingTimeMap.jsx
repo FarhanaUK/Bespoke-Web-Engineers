@@ -1,12 +1,12 @@
 function ProcessingTimeMap() {
   const steps = [
     {
-      title: "1️⃣ Pre-Call Form",
-      text: "Fill out a short form before our Zoom meeting. This gives our developers the details needed to create a tailored demo in advance."
+      title: "1️⃣ Booking",
+      text: "Book a video call."
     },
     {
       title: "2️⃣ Zoom Consultation",
-      text: "We review the demo and discuss your business goals. If you're happy to proceed, a 50% deposit secures your spot."
+      text: "We discuss your business goals. If you're happy to proceed, a 50% deposit secures your spot."
     },
     {
       title: "3️⃣ Design & Development (1–2 Weeks)",

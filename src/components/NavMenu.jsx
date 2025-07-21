@@ -2,6 +2,9 @@ import { Menu, X } from "lucide-react"
 import { useState, useEffect, useRef } from "react"
 import { Link } from "react-router-dom"
 
+
+          
+
 function NavMenu() {
   const [isOpen, setIsOpen] = useState(false)
   const menuRef = useRef(null)
@@ -60,7 +63,7 @@ function NavMenu() {
             <Link to="/Pricing" onClick={closeMenu} className="block hover:underline">PRICING</Link>
             <Link to="/Contact" onClick={closeMenu} className="block hover:underline">CONTACT</Link>
             <Link to="/BookNow" onClick={closeMenu} className="block border rounded-lg bg-black hover:bg-slate-800 text-white px-4 py-2">BOOK NOW</Link>
-          </div>
+            </div>
         )}
       </div>
     </div>

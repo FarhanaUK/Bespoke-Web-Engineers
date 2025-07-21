@@ -1,20 +1,32 @@
-import * as functions from "firebase-functions"  
-import admin from "firebase-admin"          
-import fetch from "node-fetch"                  
+/* global process */
 
-admin.initializeApp()
+import * as functions from "firebase-functions";
+import admin from "firebase-admin";
+import fetch from "node-fetch";
+
+admin.initializeApp();
 
 export const sendContactEmail = functions.https.onRequest(async (req, res) => {
+  // Add CORS headers here:
+  res.set('Access-Control-Allow-Origin', '*'); // Allow all origins (for testing). Replace '*' with your frontend URL in production.
+  res.set('Access-Control-Allow-Methods', 'POST, OPTIONS');
+  res.set('Access-Control-Allow-Headers', 'Content-Type');
+
+  // Handle CORS preflight request
+  if (req.method === 'OPTIONS') {
+    return res.status(204).send(''); // End preflight here
+  }
+
   if (req.method !== "POST") {
     return res.status(405).send("Method Not Allowed");
   }
 
-  const RESEND_API_KEY = functions.config().resend.key
+  const RESEND_API_KEY = process.env.RESEND_API_KEY;
 
-  const { name, email, message } = req.body
+  const { name, email, message } = req.body;
 
   if (!name || !email || !message) {
-    return res.status(400).send("Missing fields")
+    return res.status(400).send("Missing fields");
   }
 
   try {
@@ -36,9 +48,9 @@ export const sendContactEmail = functions.https.onRequest(async (req, res) => {
       throw new Error("Failed to send email");
     }
 
-    res.status(200).send("Email sent successfully")
+    res.status(200).send("Email sent successfully");
   } catch (error) {
-    console.error(error);
-    res.status(500).send("Internal Server Error")
+    console.error("Error sending email:", error.message, error.stack);
+    res.status(500).send("Internal Server Error");
   }
-})
+});
