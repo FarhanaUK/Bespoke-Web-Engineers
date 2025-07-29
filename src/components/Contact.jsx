@@ -45,14 +45,14 @@ function Contact() {
 
       
       {showSuccess && (
-        <div className="absolute top-10 bg-white border border-green-500 rounded-lg shadow-lg p-6 w-80 text-center z-10">
+        <div className="absolute top-10 bg-white border border-[#26B7FF]  rounded-lg shadow-lg p-6 w-80 text-center z-10">
           <div className="flex flex-col items-center space-y-2">
             <span className="text-green-600 text-4xl">✔</span> 
             <p className="font-bold text-lg text-green-700">Success</p>
             <p className="text-gray-700">Message sent successfully.</p>
             <button
               onClick={() => setShowSuccess(false)}
-              className="mt-4 px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700"
+              className="mt-4 px-4 py-2 bg-[#26B7FF]  text-white rounded hover:bg-green-700"
             >
               OK
             </button>
