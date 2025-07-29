@@ -1,4 +1,4 @@
-
+import CookieConsent from 'react-cookie-consent'
 import About from './components/About'
 import BusinessName from './components/BusinessName'
 import CallToAction from './components/CallToAction'
@@ -25,7 +25,54 @@ function App() {
 //add the thing for scrolling 
   return (
     <div className="bg-neutral-100 min-h-screen flex flex-col">
-      
+       <CookieConsent
+      location="bottom" // bar appears at bottom
+      buttonText="Accept Cookies" // button text
+      cookieName="bespokeCookieConsent" // custom cookie name
+      style={{
+        background: "#333", // dark background for the bar
+        color: "white", // text color
+        fontSize: "14px",
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center",
+        padding: "10px 20px",
+      }}
+      buttonStyle={{
+        backgroundColor: "#4CAF50", // green button
+        color: "white",
+        fontWeight: "bold",
+        borderRadius: "5px",
+        padding: "8px 15px",
+        cursor: "pointer",
+      }}
+      declineButtonText="Decline" // decline button text
+      enableDeclineButton // show decline button
+      declineButtonStyle={{
+        backgroundColor: "#f44336", // red decline button
+        color: "white",
+        fontWeight: "bold",
+        borderRadius: "5px",
+        padding: "8px 15px",
+        cursor: "pointer",
+        marginLeft: "10px",
+      }}
+      onAccept={() => {
+        console.log("Cookies accepted!");
+      }}
+      onDecline={() => {
+        console.log("Cookies declined!");
+      }}
+      expires={150} // cookie expiry in days
+      hideOnAccept={true} // hide bar after accept
+    >
+      This website uses cookies to enhance your experience.{" "}
+      <span style={{ fontSize: "12px", opacity: 0.8 }}>
+        You can decline or accept.
+      </span>
+    </CookieConsent>
+
+
         <PromoBanner/>
         <NavMenu/>
         <BusinessName/>

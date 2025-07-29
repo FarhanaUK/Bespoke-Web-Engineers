@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"
 
 
           
-
+  //<Link to="/BookNow" className="border rounded-lg bg-black hover:bg-slate-800 text-white px-4 py-2 inline-flex items-center">BOOK NOW</Link>
+  //<Link to="/BookNow" onClick={closeMenu} className="block border rounded-lg bg-black hover:bg-slate-800 text-white px-4 py-2">BOOK NOW</Link>
 function NavMenu() {
   const [isOpen, setIsOpen] = useState(false)
   const menuRef = useRef(null)
@@ -44,7 +45,7 @@ function NavMenu() {
         <Link to="/Services" className="hover:underline">SERVICES</Link>
         <Link to="/Pricing" className="hover:underline">PRICING</Link>
         <Link to="/Contact" className="hover:underline">CONTACT</Link>
-        <Link to="/BookNow" className="border rounded-lg bg-black hover:bg-slate-800 text-white px-4 py-2 inline-flex items-center">BOOK NOW</Link>
+      
       </div>
 
     
@@ -62,7 +63,7 @@ function NavMenu() {
             <Link to="/Services" onClick={closeMenu} className="block hover:underline">SERVICES</Link>
             <Link to="/Pricing" onClick={closeMenu} className="block hover:underline">PRICING</Link>
             <Link to="/Contact" onClick={closeMenu} className="block hover:underline">CONTACT</Link>
-            <Link to="/BookNow" onClick={closeMenu} className="block border rounded-lg bg-black hover:bg-slate-800 text-white px-4 py-2">BOOK NOW</Link>
+            
             </div>
         )}
       </div>

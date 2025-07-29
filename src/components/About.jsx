@@ -21,8 +21,7 @@ function About() {
         Our team specializes in building clean, responsive websites tailored to your goals. We don’t believe in templates or bloated features, just bespoke designs that reflect your unique brand and speak directly to your audience.
         <br /><br />
 
-   From our base in London and with our co-founder located in Dubai, Bespoke Web Engineers operates as a global team.  
-We work closely with clients to create websites that are not only visually stunning but also carefully optimized for search engine ranking, fast performance, and excellent user experience.
+   From our base in London, we work closely with clients to create websites that are not only visually stunning but also carefully optimized for search engine ranking, fast performance, and excellent user experience.
 <br /><br />
 
         If you're ready to grow your business with a professional online presence, we’re here to help you launch with confidence.

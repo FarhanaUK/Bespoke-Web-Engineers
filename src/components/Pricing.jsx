@@ -23,7 +23,7 @@ function Pricing() {
               <li>Fully responsive design (desktop, tablet, and mobile)</li>
               <li>Contact form</li>
             </ul>
-            <p className="font-bold mt-2">Starting at: £150.00</p>
+            <p className="font-bold mt-2">Starting at: £199.00</p>
           </section>
 
           <section className="shadow-xl rounded-lg bg-white p-4 mb-6">
